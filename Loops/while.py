@@ -252,3 +252,103 @@
 
 
 
+
+
+
+# WAP to A to Z            values: A To Z = 65 to 97   and   a to z = 97 to 122
+
+# n=eval(input("Enter a num:"))
+# i=65
+
+# while i<=96:
+#     print(chr(i))
+#     i=i+1
+
+
+
+
+# WAP to  z to a
+# i=122
+# while i>=97:
+#     print(chr(i))
+#     i=i-1
+
+
+
+
+
+# WAP  table of 7
+
+
+# i=1
+
+# while i<=10:
+#     print("7*",i,"=",7*i)
+#     i=+1
+
+
+
+# n=int(input("Enter a num:"))
+# i=1
+# while i<=10:
+#     print(n,"*",i,"=",n*i)
+#     i=+1
+
+
+
+# WAP to add all num staring from 1 to 5
+
+# i=1
+# add=0
+# while i<=5:
+#     add=add+i
+#     i=i+1
+# print("Sum of all num",add)
+
+
+
+# WAP to multiply all the num strat from 1 to 5
+
+# i=1
+# mul=1
+# while i<=5:
+#     mul =mul*i
+#     i=i+1
+# print(mul)
+
+
+# WAP  to add those num are even srat from 1 to 10
+
+
+# i=1
+# s=0
+# while i<=10:
+#     if i%2==0:
+#         s=s+i
+#     i=i+1
+# print(s)
+
+
+
+# WAP  multiply all odd numwhich present w/b 5 to 15
+
+# i=5
+# s=1
+# while i<=15:
+#     if i%2!=0:
+#         s=s*i
+#     i=i+1
+# print(s)
+
+
+# WAP  to count how many num of digit present inside of given num using while loop
+# n=int(input("Enter a num:"))
+# count=0
+# while n !=0:
+#     count=count+1
+#     n=n//10
+  
+# print(count)
+
+
+

@@ -170,3 +170,72 @@
 
 
 # 87.WAP to get following output
+
+
+
+
+
+# WAP ti get following  output.
+
+# S=["jiooinema.com","file.Py","web.html","amazon.com","www.org"]
+# out=["com","Py","html","org"
+
+# S=["jiooinema.com","file.Py","web.html","amazon.com","www.org"]
+# out=[]
+# for i in S:
+#     ex = i.split('.')[-1]
+#     if ex not in out:
+#         out.append(ex)
+# print(out)
+
+
+
+# WAP to get following output
+# s=["jiocinema.com","file.py","web.html","amazon.com","www.org"]
+# out={'com': ['jiocinema'], 'py': ['file'], 'html': ['web'], 'org': ['www', 'www']}
+
+# s=["jiocinema.com","file.py","web.html","amazon.com","www.org"]
+# out={}
+# for i in s:
+#     ft,ex=i.split(".")
+#     if  ex not in out:
+#        out[ex]=[ft]
+# else:
+#     out[ex]+=[ft]
+#     print(out)
+
+
+
+# Extract all the even integers between 1 to n.
+# n=int(input("Enter a num:"))
+# out=[]
+# for i in range(1,n+1):
+#     if i%2==0:
+#         out.append(i)
+# print(out)
+
+
+
+# Extract all the odd num b/w 1 to n
+# n=int(input("Enter a num:"))
+# out=[]
+# for i in range(1,n+1):
+#     if i%2!=0:
+#         out.append(i)
+# print(out)
+
+
+
+
+# Extract the character present at odd index
+
+
+
+s="KailshPatel"
+ch=''
+for i in range(len(s)):
+    if i%2 !=0:
+        s=s+[i]
+print(ch)
+
+
