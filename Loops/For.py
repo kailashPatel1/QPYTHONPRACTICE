@@ -229,13 +229,37 @@
 
 # Extract the character present at odd index
 
+# s="KailshPatel"
+# ch=''
+# for i in range(len(s)):
+#     if i%2 !=0:
+#         ch=ch+s[i]
+# print(ch)
 
 
-s="KailshPatel"
-ch=''
-for i in range(len(s)):
-    if i%2 !=0:
-        s=s+[i]
-print(ch)
+
+
+# WAP to print left angle triangle pattern using for loop
+
+# n=eval(input("Enter a num:"))
+# for i in range(1,n+1):
+#     print("*"*i)
+
+
+# WAP to print left inverse angle triangle pattern using for loop
+# n=eval(input("Enter a num:"))
+# for i in range(1,n+1):
+#     print("*"*(n-i+1))
+
+# WAP to print right angle triangle pattern using for loop
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     print(" "*(n-i)+"*"*i)
+
+
+# WAP to print right inverse angle triangle pattern using for loop
+n=int(input("Enter a num:"))
+for i in range(1,n+1):      
+    print(" "*i+"*"*(n-i+1))
 
 
