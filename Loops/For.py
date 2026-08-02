@@ -251,15 +251,24 @@
 # for i in range(1,n+1):
 #     print("*"*(n-i+1))
 
+
 # WAP to print right angle triangle pattern using for loop
 # n=int(input("Enter a num:"))
 # for i in range(1,n+1):
 #     print(" "*(n-i)+"*"*i)
 
 
+
 # WAP to print right inverse angle triangle pattern using for loop
 n=int(input("Enter a num:"))
 for i in range(1,n+1):      
     print(" "*i+"*"*(n-i+1))
+
+
+
+# daimond pattern using for loop
+n=int(input("Enter a num:"))
+for i in range(1,n+1):  
+    print(" "*(n-i)+"*"*(2*i-1))
 
 

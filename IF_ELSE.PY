@@ -52,10 +52,13 @@
 
 
 
+# WAP to check num is positive or negative
 
-
-
-
+# num=int(input("enter a num:"))
+# if num>0:
+#     print("num is positive.")
+# else:
+#     print("num is negative.")
 
 
 
@@ -66,13 +69,35 @@
 # WAP to check string is polindrom or not.
 
 # # s=input("enter string.")
-# if s==s[::-s]
+# if s==s[::-1]:
+#     print("string is palindrome.")
+# else:
+#     print("string is not palindrome.")
     
 
 
 
-# WAP to check num is positive or negative
-# num=int(input("enter a num:"))
+
+
+# Number Guessing Game
+
+import random
+
+# Generate a random number between 1 and 100
+secret_number = random.randint(1, 50)
+
+print("Guess the number between 1 and 100.")
+
+while True:
+    guess = int(input("Enter your guess: "))
+    
+    if guess < secret_number:
+        print("Too Low! Try Again.")
+    elif guess > secret_number:
+        print("Too High! Try Again.")
+    else:
+        print(f"Congratulations! You guessed the correct number {secret_number}.")
+        break
 
 
 
