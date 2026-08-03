@@ -351,10 +351,42 @@
 
 
 
+
+
+
+
+
 # WAP  to get following output
 # s="kabab is love"
 # out={'kb':('kbb',3,'bbk'),'is':('s','l','s'),'le':('lv','2','vl')}
 # {list + list char:   (consonant,no of consonant,rev of consonant)}
+
+
+# s="kabab is love"
+# out={}
+# for i in s:
+#     cons=''
+#     for j in i:
+#         if j not in 'AEIOUaeiou':
+#             cons +=j
+#             out[i[0]+i[-1]] = (cons,len(cons),cons[::-1])
+# print(out)
+
+
+
+# WAP  to get the following output.
+# In='bacbcaabbaa'
+# out=b4a5c2
+
+
+
+
+
+In=[10,20,18]
+out=[]
+for i in In:
+        out.append(sum(In)-i)
+print(out)
 
 
 
