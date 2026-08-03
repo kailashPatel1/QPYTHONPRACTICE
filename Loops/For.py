@@ -178,7 +178,7 @@
 # WAP ti get following  output.
 
 # S=["jiooinema.com","file.Py","web.html","amazon.com","www.org"]
-# out=["com","Py","html","org"
+# out=["com","Py","html","org"]
 
 # S=["jiooinema.com","file.Py","web.html","amazon.com","www.org"]
 # out=[]
@@ -246,10 +246,12 @@
 #     print("*"*i)
 
 
+
 # WAP to print left inverse angle triangle pattern using for loop
 # n=eval(input("Enter a num:"))
 # for i in range(1,n+1):
 #     print("*"*(n-i+1))
+
 
 
 # WAP to print right angle triangle pattern using for loop
@@ -259,16 +261,100 @@
 
 
 
+
 # WAP to print right inverse angle triangle pattern using for loop
-n=int(input("Enter a num:"))
-for i in range(1,n+1):      
-    print(" "*i+"*"*(n-i+1))
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):      
+#     print(" "*i+"*"*(n-i+1))
 
 
 
 # daimond pattern using for loop
-n=int(input("Enter a num:"))
-for i in range(1,n+1):  
-    print(" "*(n-i)+"*"*(2*i-1))
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):  
+#     print(" "*(n-i)+"*"*(2*i-1))
+
+
+
+# WAP to extract all the string values present in list only if the string is palindrome
+
+# l=[True, 'mom',3.5,'dad','aya']
+# out=[]
+# for i in l:
+#     if type(i) ==str and i == i[::-1]:
+#         out.append(i)
+# print(out)
+
+
+
+
+# Prime num without break
+
+# n=int(input("Enter a number:"))
+# c=0
+# for i in range(2,n):
+   
+
+
+
+
+# prime num with break 
+
+# n=int(input("Enter a number:"))
+# for i in range(2,n):
+#     if(n%i)==0:                        
+#         print("Number is not prime")  
+#         break  
+# else:
+#  print("Number is prime")
+
+
+
+
+
+# ############ NESTED FOR LOOP ##########
+
+# for i in range(1,5):
+#     for j in range(1,5):
+#         print(i,j)
+
+
+
+# WAP to get the following output. without length function.
+
+# s="Kailash patel".split()
+# out={}
+# for i in s:
+#     count=0
+#     for j in i:
+#         count+=1
+#         out[i]=count
+# print(out)
+
+
+
+# WAP to get following output
+# s='power star'
+# out={'power':2,'star':1}  (num of vowel is key).
+
+
+# s="power star".split()
+# out={}
+# for i in s:
+#     count=0
+#     for j in i:
+#         if j in "aeiouAEIOU":
+#              count+=1
+#         out[i]=count
+# print(out)
+
+
+
+
+# WAP  to get following output
+# s="kabab is love"
+# out={'kb':('kbb',3,'bbk'),'is':('s','l','s'),'le':('lv','2','vl')}
+# {list + list char:   (consonant,no of consonant,rev of consonant)}
+
 
 
