@@ -382,11 +382,18 @@
 
 
 
-In=[10,20,18]
-out=[]
-for i in In:
-        out.append(sum(In)-i)
-print(out)
+# In=[10,20,18]
+# out=[]
+# for i in In:
+#         out.append(sum(In)-i)
+# print(out)
+
+
+
+
+
+
+
 
 
 

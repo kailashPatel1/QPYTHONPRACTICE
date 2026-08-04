@@ -352,3 +352,87 @@
 
     
 
+
+
+
+# print all char from str line by line
+
+# s="Kailash"
+# i=0
+# while i<=len(s)-1:
+#     print(s[i])
+#     i=i+1
+    
+
+
+# How to take input for list , tuple, set, dict #
+# we use eval 
+# s=eval(input("enter your dict:"))
+# print(s)
+# print(type(s))
+
+########
+# l=eval(input("enter your list:"))
+# i=0
+# while i<len(l)-1:
+#     print(l[i])
+#     i=i+1
+
+
+
+####### WAP to take list as input and display those element which are present at even index num
+
+
+# l=eval(input("enter your list:"))
+# i=0
+# while i<len(l):
+#     if i%2 ==0:
+#        print(l[i])
+#     i=i+1
+
+
+
+# add all element present inside given list 
+# l=eval(input("enter your list:"))
+# i=0
+# sum=0
+# while i<len(l)-1:
+#     sum=sum+l[i]
+#     i=i+1
+# print(sum)
+
+
+
+# WAP to multipaly all the element present in list 
+# l=eval(input("enter your list:"))
+# i=0
+# sum=0
+# while i<len(l)-1:
+#     sum=sum*l[i]
+#     i=i+1
+# print(sum)
+
+
+# WAP  to add all those element of list which are present at even index num
+# l=eval(input("enter your list:"))
+# i=0
+# sum=0
+# while i<len(l)-1:
+#     if i%2==2:
+#         sum=sum+l[i]
+#     i=i+1
+# print(sum)
+
+
+# WAP to add all the item of list which are odd
+l=eval(input("enter your list"))
+sum=0
+i=0
+while i<len(l)-1:
+    if l[i]%2 !=0:
+        sum=sum+l[i]
+    i=i+1
+print(sum)
+
+
+
