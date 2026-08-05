@@ -462,38 +462,70 @@
 
 
 # WAP to get following output
-I=[100,200,50,400,300]
-N=300
-out=[[100,200],[300]]
+# I=[100,200,50,400,300]
+# N=300
+# out=[[100,200],[300]]
 
-I=[100,200,50,400,300]
-N=300
-out=[]
+# I=[100,200,50,400,300]
+# N=300
+# out=[]
 
-for i in I:
-    if i==N:
-        out.append([i])
-    else:
-        for j  in I:
-            if i + j == N:
-                if [i,j] not in out:
-                    out.append([i,j])
-                out.extend([i,j])
-print(out)
+# for i in I:
+#     if i==N:
+#         out.append([i])
+#     else:
+#         for j  in I:
+#             if i + j == N:
+#                 if [i,j] not in out:
+#                     out.append([i,j])
+#                 out.extend([i,j])
+# print(out)
 
 
 # print prime num
 
 
 
+
+
 # WAP to check given num is strong or not.# n=145 
 
+# n = int(input("Enter a number: "))
+# temp = n
+# sum_fact = 0
+
+# while temp > 0:
+#     digit = temp % 10
+
+#     # Find factorial of the digit
+#     fact = 1
+#     for i in range(1, digit + 1):
+#         fact *= i
+
+#     sum_fact += fact
+#     temp //= 10
+# # Check Strong Number
+# if sum_fact == n:
+#     print(n, "is a Strong Number")
+# else:
+#     print(n, "is not a Strong Number")
 
 
 
 
 
+# WAP to check given num is perfect or not. # n=6  1+2+3=6
 
+n = int(input("Enter a number: "))
+sum_divisors = 0
 
+for i in range(1, n):
+    if n % i == 0:
+        sum_divisors += i
+
+if sum_divisors == n:
+    print(n, "is a Perfect Number")
+else:
+    print(n, "is not a Perfect Number")
 
 
