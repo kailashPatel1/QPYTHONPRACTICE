@@ -382,7 +382,6 @@
 
 ####### WAP to take list as input and display those element which are present at even index num
 
-
 # l=eval(input("enter your list:"))
 # i=0
 # while i<len(l):
@@ -393,6 +392,7 @@
 
 
 # add all element present inside given list 
+
 # l=eval(input("enter your list:"))
 # i=0
 # sum=0
@@ -404,6 +404,7 @@
 
 
 # WAP to multipaly all the element present in list 
+
 # l=eval(input("enter your list:"))
 # i=0
 # sum=0
@@ -414,6 +415,7 @@
 
 
 # WAP  to add all those element of list which are present at even index num
+
 # l=eval(input("enter your list:"))
 # i=0
 # sum=0
@@ -424,15 +426,54 @@
 # print(sum)
 
 
-# WAP to add all the item of list which are odd
-l=eval(input("enter your list"))
-sum=0
-i=0
-while i<len(l)-1:
-    if l[i]%2 !=0:
-        sum=sum+l[i]
-    i=i+1
-print(sum)
 
+
+# WAP to add all the item of list which are odd
+
+# l=eval(input("enter your list"))
+# sum=0
+# i=0
+# while i<len(l)-1:
+#     if l[i]%2 !=0:
+#         sum=sum+l[i]
+#     i=i+1
+# print(sum)
+
+
+
+ 
+
+
+#  WAP  to add all those element of list which are present at even index num as well as odd index num seperetly
+
+# l=eval(input("enter your list:"))
+# evenSum=0
+# oddSum=0
+# i=0
+# while i<=len(l)-1:
+#     if i%2==0 :
+#         evenSum=evenSum + l[i]
+#     else:
+#         oddSum=oddSum + l[i]
+#     i=i+1
+# print("evenSum:",evenSum)
+# print("oddSum",oddSum)
+
+
+
+# WAP to take a list as input and add all the even elements and odd element seperatly
+
+l=eval(input("enter your list:"))
+evenSum=0
+oddSum=0
+i=0
+while l[i]<=len(l)-1:
+    if i%2==0 :
+        evenSum=evenSum + l[i]
+    else:
+        oddSum=oddSum + l[i]
+    i=i+1
+print("evenSum:",evenSum)
+print("oddSum",oddSum)
 
 

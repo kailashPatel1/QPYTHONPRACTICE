@@ -5,6 +5,13 @@
 # Syntax:   for var in collection
                 # code to execution 
 
+# OR 
+
+# For loop is a looping stataement in which variable pics one value at time from collections and for that specific value 
+# it goinging to execute the entire block of code.
+#  How many num of values present inside the collections that many num of time for is going executed.
+ 
+
 
 
 #1.Range fun: it will generates the sequence of integers w/b geven specified limit
@@ -374,19 +381,112 @@
 
 
 
+
 # WAP  to get the following output.
 # In='bacbcaabbaa'
 # out=b4a5c2
 
+# In='bacbcaabbaa'
+# out=''
+# for i in In:
+#     count=0
+#     for j in i:
+#         if i==j:
+#             count +=1
+# print(out)
 
 
 
+##############
 
 # In=[10,20,18]
 # out=[]
 # for i in In:
 #         out.append(sum(In)-i)
 # print(out)
+
+
+
+
+
+
+# WAP to take a string as input and disply each and every character of string line by line.
+
+# s="Kailash"
+# for i in s:  
+#     print(i)
+
+
+# WAP take list as input and squre aech element present in list 
+
+# l=eval(input("enter your list"))
+# for i in l:
+#     print(i**2) 
+
+
+
+# WAP add all item that prenst inside a tuple 
+
+# t=eval(input("enter your tuple:"))
+# sum=0
+# for i in t:
+#     sum=sum + i
+# print(sum)
+
+
+
+
+###############################
+# In=[100,200,35,40,60]
+# out=[]
+# for i in In:
+#     to=0
+#     for j in In:
+#         if i !=j:
+#             to +=j
+#     out.append(to)
+# print(out)
+
+
+
+# count function:- it will return the count of element occurred in collection.
+# Syntax:
+    # var.count(element)
+
+
+# name='kailash_Patel'
+# n=name.count('a')
+# print(n)
+
+
+
+
+# WAP to get following output
+I=[100,200,50,400,300]
+N=300
+out=[[100,200],[300]]
+
+I=[100,200,50,400,300]
+N=300
+out=[]
+
+for i in I:
+    if i==N:
+        out.append([i])
+    else:
+        for j  in I:
+            if i + j == N:
+                if [i,j] not in out:
+                    out.append([i,j])
+                out.extend([i,j])
+print(out)
+
+
+# print prime num
+
+
+
+# WAP to check given num is strong or not.# n=145 
 
 
 
