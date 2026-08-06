@@ -514,19 +514,148 @@
 
 
 
+
 # WAP to check given num is perfect or not. # n=6  1+2+3=6
 
-n = int(input("Enter a number: "))
-sum_divisors = 0
+# n = int(input("Enter a number: "))
+# sum_divisors = 0
 
-for i in range(1, n):
-    if n % i == 0:
-        sum_divisors += i
+# for i in range(1, n):
+#     if n % i == 0:
+#         sum_divisors += i
 
-if sum_divisors == n:
-    print(n, "is a Perfect Number")
-else:
-    print(n, "is not a Perfect Number")
+# if sum_divisors == n:
+#     print(n, "is a Perfect Number")
+# else:
+#     print(n, "is not a Perfect Number")
 
 
  
+
+####### Pattern #########
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print("*",end=" ")
+#     print()
+
+
+
+####################
+
+
+
+# Print Star in daigonal
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i ==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+# #######
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j==n+1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+#####################
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i+j==n+1 or i ==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+
+
+# ##########
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==n//2+1 or j ==n//2+1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+
+############*############
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==n//2+1 or j ==n//2+1 or i+j==n+1 or i ==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+
+
+#######################
+
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==1 or i ==n or j==1 or j ==n  or i==n//2+1 or j ==n//2+1 or i+j==n+1 or i ==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+
+# #### right tringle #####
+# n=eval(input("Enter a num:"))
+# for i in range(1,n+1):
+#     print("*"*i)
+
+
+
+
+# daimond pattern using for loop
+
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):  
+#     print(" "*(n-i)+"*"*(2*i-1))
+
+
+###########
+
+
+n=int(input("Enter a num:"))
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==n//2+1 or j ==n//2+1 or i+j==n+1 or i ==j:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+
+
+
+
+
