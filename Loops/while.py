@@ -414,6 +414,8 @@
 # print(sum)
 
 
+
+
 # WAP  to add all those element of list which are present at even index num
 
 # l=eval(input("enter your list:"))
@@ -441,7 +443,6 @@
 
 
 
- 
 
 
 #  WAP  to add all those element of list which are present at even index num as well as odd index num seperetly
@@ -463,17 +464,25 @@
 
 # WAP to take a list as input and add all the even elements and odd element seperatly
 
-l=eval(input("enter your list:"))
-evenSum=0
-oddSum=0
-i=0
-while l[i]<=len(l)-1:
-    if i%2==0 :
-        evenSum=evenSum + l[i]
-    else:
-        oddSum=oddSum + l[i]
-    i=i+1
-print("evenSum:",evenSum)
-print("oddSum",oddSum)
+# l=eval(input("enter your list:"))
+# evenSum=0
+# oddSum=0
+# i=0
+# while l[i]<=len(l)-1:
+#     if i%2==0 :
+#         evenSum=evenSum + l[i]
+#     else:
+#         oddSum=oddSum + l[i]
+#     i=i+1
+# print("evenSum:",evenSum)
+# print("oddSum",oddSum)
+
+
+
+
+
+
+# while: inisialization and updation is mendetory
+#  we can not iterate set, and disct using while loop becose set, dict can not support indexing
 
 

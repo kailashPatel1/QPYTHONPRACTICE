@@ -645,16 +645,87 @@
 ###########
 
 
-n=int(input("Enter a num:"))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if i==n//2+1 or j ==n//2+1 or i+j==n+1 or i ==j:
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
-    print()
+# n=int(input("Enter a num:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if i==n//2+1 or j ==n//2+1 or i+j==n+1 or i ==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
 
 
+
+
+
+
+
+# WAP to take a string as input and display each char of a string 
+
+# s="Kailash"
+# for i in s:
+#     print(i)
+
+
+
+# WAP to count how many num of vowel do we have in string 
+
+# s="Kailash_Patel"
+# count=0
+# for i in s:
+#     if i in "aeiou":
+#         count=count+1
+# print(count)
+
+
+# WAP to count how many num of consonent do we have in string.
+
+# WAP to take list as input and add all item prent inside in list
+
+# l=eval(input("enter your list:"))
+# sum=0
+# for i in l:
+#     sum=sum+i
+# print("Sum of all element present in list:",sum)
+
+
+
+# WAP to take list as input and  multiply all item prent inside in list
+
+# l=eval(input("enter your list:"))
+# mul=1
+# for i in l:
+#     mul=mul*i
+# print("Sum of all element present in list:",mul)
+
+
+# WAP to add all even num present inside list.
+# WAP to all those element which are present inside a list, which is divisible by both 3 and 5
+
+
+
+# WAP to print the factorial of a given num.
+
+# n=int(input("Enter a num:"))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print("factorial is:",fact)
+
+
+
+
+### WAP to print the fibonacci series up to a given lenght.###imp
+
+length=int(input("Enter the length:"))
+n1=0
+n2=1
+print(n1,n2,end=" ")
+for i in range(length - 2):
+    next = n1 +n2
+    print(next,end=" ")
+    n1=n2
+    n2=next
 
 
 
