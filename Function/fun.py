@@ -735,5 +735,27 @@ print(a)
 a = {"name": "Kailash"}
 b = a.copy()
 
-# print(b)
+print(b)
+
+
+
+
+
+
+# 2.User Defined Function
+
+# User Defined Function:
+# These are the functions which are created/defined by the programmer according to their requirement.
+
+# We use the def keyword to create a user-defined function.
+
+# Syntax:
+#     def function_name():
+#     statement
+# Example:
+
+def greet():
+    print("Hello")
+
+greet()
 
