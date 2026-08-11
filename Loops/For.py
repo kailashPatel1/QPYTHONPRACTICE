@@ -717,16 +717,114 @@
 
 ### WAP to print the fibonacci series up to a given lenght.###imp
 
-length=int(input("Enter the length:"))
-n1=0
-n2=1
-print(n1,n2,end=" ")
-for i in range(length - 2):
-    next = n1 +n2
-    print(next,end=" ")
-    n1=n2
-    n2=next
+# length=int(input("Enter the length:"))
+# n1=0
+# n2=1
+# print(n1,n2,end=" ")
+# for i in range(length - 2):
+#     next = n1 +n2
+#     print(next,end=" ")
+#     n1=n2
+#     n2=next
 
 
+
+
+# WAP calculate lcm of two num
+
+# n1=int(input("Enter 1st num:"))
+# n2=int(input("Enter 1st num:"))
+
+# if n1>n2:
+#     small=n1
+# else:
+#     small=n2
+#     for i in range(1,small+1):
+#         if n1%i==0  and n2%i==0:
+#             hcf=i
+#     lcm=(n1*n2) /hcf
+# print("LCM of gien num:",lcm)       
+
+
+
+# coprime: num are sed to be coprime to each other if there hcf is equal to 1.
+# WAP to check a given num are coprime are not 
+
+
+# n1=int(input("Enter 1st num:"))
+# n2=int(input("Enter 1st num:"))
+# if n1>n2:
+#     small=n1
+# else:
+#     small=n2
+# for i in range(1,small+1):
+#     if n1%i==0 and n2%i==0:
+#         hcf=i
+#         if hcf==1:
+#             print("num are coprime to each other.")
+#         else:
+#             print("num are not coprime to each other.")
+
+
+
+
+
+# WAP to check given num is perfect num or not 
+
+# num=int(input("Enter your num:"))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum=sum+i
+# if num==sum:
+#     print(num,"is perfect num.")   
+# else:
+#     print(num,"is not perfect num.")     
+        
+
+
+# WAP to dupliactes element from list
+
+# l=[2,'hi',3,2,3,4,5,'hi','ram']
+# out=[]
+
+# for i in l:
+#     if i  not in out:
+#         out.append(i)
+        
+# print(out,sum)
+
+
+
+# WAP to add unic element inside the given list: 
+
+# l=[2,3,2,3,4,5]
+# out=[]
+# sum=0
+# for i in l:
+#     if i  not in out:
+#         out.append(i)
+#         sum=sum+i
+# print(sum)
+
+
+# WAP to add all the repeated element only 
+
+
+l=eval(input("enter your list:"))
+res=[]
+
+for i in l:
+    if i not in res:
+        res.append(i)      
+sum=0
+for i in res:
+        if l.count(i)>1:      
+            sum=sum+(i*l.count(i))
+print("sum of all repeated num is:",sum)
+
+
+
+# WAP To add those num which are not reapeted in list
 
 
