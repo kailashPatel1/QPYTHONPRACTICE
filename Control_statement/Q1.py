@@ -71,5 +71,9 @@ print(r)
 
 #6.Membership operator: it is used to check whether the given value is present inside collection or not 
 # type 
-# 1. in : 
-# 2. not in
+
+
+
+
+
+

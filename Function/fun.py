@@ -108,7 +108,7 @@ print(eval(a))
 
 # 1. len()
 
-    #   It will return the length of a collection/string.
+    #  It will return the length of a collection/string.
 
 # Syntax:
 
@@ -118,7 +118,6 @@ print(eval(a))
 
 name = "Kailash"
 print(len(name))
-
 
 
 
@@ -707,7 +706,7 @@ a.popitem()
 print(a)
 
 
-# 8. clear()
+# 8.clear()
 
 # It will remove all key-value pairs from the dictionary.
 
@@ -740,8 +739,6 @@ print(b)
 
 
 
-
-
 # 2.User Defined Function
 
 # User Defined Function:
@@ -754,13 +751,23 @@ print(b)
 #     statement
 # Example:
 
-def greet():
-    print("Hello")
 
-greet()
+# WAP to traverse a list and print each element of the list.
+# def print_list_elements(lst):
+#     for element in lst:
+#         print(element)
+
+# my_list = [1, 2, 3, 4, 5]
+# print_list_elements(my_list)
 
 
 
-
+# l=[1,2,3,4,4,5,6,7,8,9,10]
+# res=[]
+# for i in l:
+#     if i%2==0:
+#         res.append(i)
+# print(res)
+     
 
 

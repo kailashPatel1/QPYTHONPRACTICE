@@ -752,7 +752,7 @@
 
 
 # n1=int(input("Enter 1st num:"))
-# n2=int(input("Enter 1st num:"))
+# n2=int(input("Enter 2nd num:"))
 # if n1>n2:
 #     small=n1
 # else:
@@ -808,23 +808,56 @@
 # print(sum)
 
 
+
+
 # WAP to add all the repeated element only 
 
+
+# l=eval(input("enter your list:"))
+# res=[]
+
+# for i in l:
+#     if i not in res:
+#         res.append(i)      
+# sum=0
+# for i in res:
+#         if l.count(i)>1:      
+#             sum=sum+(i*l.count(i))
+# print("sum of all repeated num is:",sum)
+
+
+
+
+# WAP To add those num which are not reapeted in list
 
 l=eval(input("enter your list:"))
 res=[]
 
 for i in l:
     if i not in res:
-        res.append(i)      
-sum=0
-for i in res:
-        if l.count(i)>1:      
-            sum=sum+(i*l.count(i))
-print("sum of all repeated num is:",sum)
+        res.append(i)
+        
 
 
 
-# WAP To add those num which are not reapeted in list
+
+
+
+
+
+
+        
+
+
+
+
+        
+
+
+
+
+
+
+
 
 
