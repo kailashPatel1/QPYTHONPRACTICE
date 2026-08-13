@@ -176,9 +176,9 @@ E=Engine()
 
 
 
-(E.color())
+print(E.color())
 
-(T.color())
+print(T.color())
 
 
 
