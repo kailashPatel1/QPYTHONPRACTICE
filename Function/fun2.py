@@ -42,6 +42,7 @@
 # print("Sum of even numbers from 1 to", n, "is:", sum)
 
 
+
 # WAP to print the sum of all odd numbers from 1 to n
 
 # sum=0
@@ -50,6 +51,7 @@
 #     if i % 2 != 0:
 #         sum += i
 # print("Sum of odd numbers from 1 to", n, "is:", sum)
+
 
 
 # WAP to lambda function to check whether given number is even or odd.
@@ -64,30 +66,6 @@
 #     print(number, "is odd.")
 
 
-
-# WAP to print encapsulation 
-
-from matplotlib.patches import Circle
-
-
-from matplotlib.patches import Circle
-
-
-class MyClass:
-    def __init__(self, value):
-        self.__value = value  # Private attribute
-
-    def get_value(self):
-        return self.__value  # Getter method
-
-    def set_value(self, value):
-        self.__value = value  # Setter method
-        # print("Value updated to:", self.__value)
-
-obj = MyClass(10)
-print("Initial value:", obj.get_value())
-obj.set_value(20)
-print("Updated value:", obj.get_value())
 
 
 
@@ -187,6 +165,7 @@ print("Updated value:", obj.get_value())
 
 
 
+
 # Show the use of abstraction in python.
 # import abc
 
@@ -207,4 +186,20 @@ print("Updated value:", obj.get_value())
 
 
 
-# WAP to show     
+
+
+
+# WAP to find the factorial of given number using recursion.
+
+def factorial(n):
+     # Base case: 0! and 1! are always 1
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n = int(input("Enter a number: "))
+print("Factorial of", n, "is:", factorial(n))
+
+
+
+    
