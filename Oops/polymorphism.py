@@ -31,9 +31,7 @@
 # Show ing Duck Typing
 from torch import Def
 
-
 from torch import Def
-
 
 class Bird:
     def fly(self):
@@ -56,20 +54,5 @@ make_fly(airplane)
 
 
 
-## Decorators:-  Decorators are a powerful feature in Python that allow you to modify the behavior of functions or classes without changing their source code.
-# They are often used for logging, authentication, and other cross-cutting concerns.
-# Example of a simple decorator that adds logging to a function:
-
-def log_decorator(func):
-    def wrapper(*args, **kwargs):
-        print(f"Calling function: {func.__name__}")
-        result = func(*args, **kwargs)
-        print(f"Function {func.__name__} returned: {result}")
-        return result
-    return wrapper
-
-
-
-  
 
 
