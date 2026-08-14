@@ -830,19 +830,12 @@
 
 # WAP To add those num which are not reapeted in list
 
-l=eval(input("enter your list:"))
-res=[]
+# l=eval(input("enter your list:"))
+# res=[]
 
-for i in l:
-    if i not in res:
-        res.append(i)
-        
-
-
-
-
-
-
+# for i in l:
+#     if i not in res:
+#         res.append(i)
 
 
 
@@ -850,14 +843,23 @@ for i in l:
 
 
 
+# WAP to check given num is armstrong num or not. 153=1^3+5^3+3^3=153
 
-        
+# num=int(input("Enter a num:"))
+# temp=num 
+# sum=0
+# while temp>0:
+#     digit=temp%10
+#     sum=sum+digit**3
+#     temp=temp//10
+# if num==sum:
+
+#     print(num,"is armstrong num.")
+# else:
+#     print(num,"is not armstrong num.")
 
 
 
 
 
-
-
-
-
+# WAP to find 

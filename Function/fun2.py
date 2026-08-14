@@ -1,3 +1,4 @@
+
 # def greet ():
 #     print("Hello")
 
@@ -65,6 +66,12 @@
 
 
 # WAP to print encapsulation 
+
+from matplotlib.patches import Circle
+
+
+from matplotlib.patches import Circle
+
 
 class MyClass:
     def __init__(self, value):
@@ -158,29 +165,46 @@ print("Updated value:", obj.get_value())
 
 
 
-#  Show run time polymorphism in python.
-class Car:
-    def __init__(self):
-        pass
-class Tire(Car):
-    def color(self):
-        return "Tire color is black"
+# Show run time polymorphism in python.
+# class Car:
+#     def __init__(self):
+#         pass
+# class Tire(Car):
+#     def color(self):
+#         return "Tire color is black"
         
-class Engine(Car):
-    def color(self):
-        return "Engine color is silver"
-        
+# class Engine(Car):
+#     def color(self):
+#         return "Engine color is silver"
 
-T=Tire()
-E=Engine()
+# T=Tire()
+# E=Engine()
 
+# print(E.color())
 
-
-print(E.color())
-
-print(T.color())
+# print(T.color())
 
 
 
 
+# Show the use of abstraction in python.
+# import abc
 
+# class Shape(abc.ABC):
+#     @abc.abstractmethod
+#     def area(self):
+#         pass
+
+# class Circle(Shape):
+#     def __init__(self, radius):
+#         self.radius = radius
+
+#     def area(self):
+#         return 3.14 * self.radius ** 2
+
+# circle = Circle(5)
+# print("Area of the circle:", circle.area())
+
+
+
+# WAP to show     
