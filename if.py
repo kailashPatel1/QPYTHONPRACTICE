@@ -176,5 +176,10 @@
 
 
 
+# WAP to check given num is positive or negative
 
-
+n=int(input("Enter a num:"))
+if n>0:
+    print(n,"is positive.")
+else:
+    print(n,"is negative.")

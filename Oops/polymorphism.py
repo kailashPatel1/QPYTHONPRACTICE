@@ -29,9 +29,7 @@
 # 
 
 # Show ing Duck Typing
-from torch import Def
 
-from torch import Def
 
 class Bird:
     def fly(self):
@@ -50,9 +48,6 @@ airplane = Airplane()
 
 make_fly(bird)
 make_fly(airplane)
-
-
-
 
 
 
