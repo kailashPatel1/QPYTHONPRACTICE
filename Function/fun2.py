@@ -187,19 +187,86 @@
 
 
 
-
-
 # WAP to find the factorial of given number using recursion.
 
-def factorial(n):
-     # Base case: 0! and 1! are always 1
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
-n = int(input("Enter a number: "))
-print("Factorial of", n, "is:", factorial(n))
+# def factorial(n):
+#      # Base case: 0! and 1! are always 1
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# n = int(input("Enter a number: "))
+# print("Factorial of", n, "is:", factorial(n))
 
 
 
+# 1.User-Defined Function
+
+# def add(a, b):
+#     return a + b
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# print("Sum:", add(n1, n2))
+
+
+## 2. Lambda Function 
+
+# multiply = lambda x, y: x * y
+# n=int(input("Enter first number: "))
+# m=int(input("Enter second number: "))
+# print("Product:", multiply(n, m))
+# print("Product:", multiply(5, 3))   # Example usage with fixed values
+
+# # 3. Recursive Function 
+
+# def factorial(n):
+#     if n <= 1:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)         
+#     if n <= 1:
+#         return 1            
+#     else:
+#         return n * factorial(n - 1) 
+        
+# n=int(input("Enter a number: "))
+# print("Factorial of", n, "is:", factorial(n))
     
+
+# # 4. Generator Function
+# def count_up_to(max_val):
+#     count = 1
+#     while count <= max_val:
+#         yield count
+#         count += 1
+# n=int(input("Enter a number: "))
+# for num in count_up_to(n):
+#     print(num)
+
+# WAP to find the sum of all even numbers from 1 to n using function.
+# def sum_of_evens(n):
+#     total = 0
+#     for i in range(2, n + 1, 2):
+#         total += i
+#     return total
+
+# n = int(input("Enter a number: "))
+# print("Sum of even numbers from 1 to", n, "is:", sum_of_evens(n))
+
+# WAP to find the sum of all odd numbers from 1 to n using function.
+
+
+# def sum_odd(num):
+#     sum=0
+#     for i in range(1,num+1):
+#         if i%2!=0:
+#             sum+=i
+#     return sum
+# num=int(input("Enter a number:"))
+# print("sum of Odd num from 1 to n",sum,"is",sum_odd(num))
+
+# WAP to check num is palindrom or not
+n=int(input("Enter a num:"))
+
+
+

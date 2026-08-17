@@ -4,22 +4,22 @@
 
 # WAP to show the use of polymorphism in python.
 
-# class Animal:
-#     def speak(self):
-#         return "Animal sound"
+class Animal:
+    def speak(self):
+        return "Animal sound"
 
-# class Dog(Animal):
-#     def speak(self):
-#         return "barks"
+class Dog(Animal):
+    def speak(self):
+        return "barks"
 
-# class Cat(Animal):
-#     def speak(self):
-#        return "meows"
+class Cat(Animal):
+    def speak(self):
+       return "meows"
     
-# d=Dog()
-# c=Cat()
-# print(d.speak())
-# print(c.speak())
+d=Dog()
+c=Cat()
+print(d.speak())
+print(c.speak())
 
 
 # types of polymorphism in python:
@@ -28,7 +28,7 @@
 # 3. in python 
 # 
 
-# Show ing Duck Typing
+
 
 
 class Bird:
@@ -43,9 +43,9 @@ def make_fly(entity):
     print(entity.fly())
 
 # Demonstrating Duck Typing
+
 bird = Bird()
 airplane = Airplane()
-
 make_fly(bird)
 make_fly(airplane)
 

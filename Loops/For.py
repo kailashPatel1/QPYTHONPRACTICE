@@ -839,8 +839,6 @@
 
 
 
-        
-
 
 
 # WAP to check given num is armstrong num or not. 153=1^3+5^3+3^3=153
@@ -859,7 +857,6 @@
 #     print(num,"is not armstrong num.")
 
 
-
-
-
 # WAP to find 
+
+

@@ -118,14 +118,12 @@
 
 # WAP to  check given leap year or not
 
-year = int(input("Enter a year: "))
+# year = int(input("Enter a year: "))
 
-if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
-    print(year, "is a Leap Year")
-else:
-    print(year, "is Not a Leap Year")
-
-
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+#     print(year, "is a Leap Year")
+# else:
+#     print(year, "is Not a Leap Year")
 
 
 
@@ -134,4 +132,15 @@ else:
 # git add .
 # git commit -m "2026-07-30: Added leap year program"
 # git push
+
+
+
+# WAP to print fibonacci seiese 
+n=int(input("Enter your length:"))
+n1=0
+n2=1
+for i in range(1,n1,n2):
+    print(n1*n2)
+
+
 

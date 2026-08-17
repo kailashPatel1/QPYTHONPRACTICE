@@ -127,7 +127,7 @@
 
 
 
-# WAP to find lagest among to num
+# WAP to find logest among to num
 
 # n1=input("Enter a num:")
 # n2=input("Enter a num:")
@@ -178,8 +178,23 @@
 
 # WAP to check given num is positive or negative
 
-n=int(input("Enter a num:"))
-if n>0:
-    print(n,"is positive.")
-else:
-    print(n,"is negative.")
+# n=int(input("Enter a num:"))
+# if n>0:
+#     print(n,"is positive.")
+# else:
+#     print(n,"is negative.")
+
+
+
+# n=eval(input("Enter a num:"))
+# d={}
+# for i in range(1,n+1):
+#     d[i]=i*i
+# print(d)
+
+
+
+# Exception handling:
+
+
+
