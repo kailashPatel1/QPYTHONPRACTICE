@@ -58,8 +58,8 @@
 
 # Example:
 
-a = 10
-print(type(a))
+# a = 10
+# print(type(a))
 
 
 # 2. id()
@@ -84,8 +84,8 @@ print(type(a))
 
 # Example:
 
-a = 10
-print(bool(a))
+# a = 10
+# print(bool(a))
 
 
 # 4. eval()
@@ -98,8 +98,8 @@ print(bool(a))
 
 # Example:
 
-a = "10 + 20"
-print(eval(a))
+# a = "10 + 20"
+# print(eval(a))
 
 
 # B. String Functions
@@ -116,8 +116,8 @@ print(eval(a))
 
 # Example:
 
-name = "Kailash"
-print(len(name))
+# name = "Kailash"
+# print(len(name))
 
 
 
@@ -131,8 +131,8 @@ print(len(name))
 # 
 # Example:
 
-name = "Kailash Patel"
-print(name.split())
+# name = "Kailash Patel"
+# print(name.split())
 
 
 # 3. input()
@@ -145,8 +145,8 @@ print(name.split())
 
 # Example:
 
-name = input("Enter your name: ")
-print(name)
+# name = input("Enter your name: ")
+# print(name)
 
 # 4. replace()
 
@@ -158,8 +158,8 @@ print(name)
 
 # Example:
 
-name = "Kailash"
-print(name.replace("K", "M"))
+# name = "Kailash"
+# print(name.replace("K", "M"))
 
 
 # 5. upper()
@@ -172,8 +172,8 @@ print(name.replace("K", "M"))
 
 # Example:
 
-name = "kailash"
-print(name.upper())
+# name = "kailash"
+# print(name.upper())
 
 
 # 6. lower()
@@ -186,8 +186,8 @@ print(name.upper())
 
 # Example:
 
-name = "KAILASH"
-print(name.lower())
+# name = "KAILASH"
+# print(name.lower())
 
 
 # 7. islower()
@@ -200,8 +200,8 @@ print(name.lower())
 
 # Example:
 
-name = "kailash"
-print(name.islower())
+# name = "kailash"
+# print(name.islower())
 
 
 # 8. isupper()
@@ -214,8 +214,8 @@ print(name.islower())
 
 # Example:
 
-name = "KAILASH"
-print(name.isupper())
+# name = "KAILASH"
+# print(name.isupper())
 
 
 # 9. isalpha()
@@ -228,14 +228,14 @@ print(name.isupper())
 
 # Example:
 
-name = "Kailash"
-print(name.isalpha())
+# name = "Kailash"
+# print(name.isalpha())
 
 
 # Note: Space and numbers are not considered alphabets.
 
-name = "Kailash Patel"
-print(name.isalpha())
+# name = "Kailash Patel"
+# print(name.isalpha())
 
 # 10. ord()
 
@@ -247,7 +247,7 @@ print(name.isalpha())
 
 # Example:
 
-print(ord('A'))
+# print(ord('A'))
 
 
 # 11. chr()
@@ -260,7 +260,7 @@ print(ord('A'))
 
 # Example:
 
-print(chr(65))
+# print(chr(65))
 
 
 # 12. title()
@@ -273,8 +273,8 @@ print(chr(65))
 
 # Example:
 
-name = "kailash patel"
-print(name.title())
+# name = "kailash patel"
+# print(name.title())
 
 
 
@@ -288,8 +288,8 @@ print(name.title())
 
 # Example:
 
-name = "kailash patel"
-print(name.capitalize())
+# name = "kailash patel"
+# print(name.capitalize())
 
 
 # 14. count()
@@ -316,8 +316,8 @@ print(name.capitalize())
 
 # Example:
 
-name = "Kailash PATEL"
-print(name.swapcase())
+# name = "Kailash PATEL"
+# print(name.swapcase())
 
 
 # C. Functions of List
@@ -503,9 +503,9 @@ print(name.swapcase())
 
 # Example:
 
-a = {10, 20}
-a.add(30)
-print(a)
+# a = {10, 20}
+# a.add(30)
+# print(a)
 # 2. remove()
 
 # It will remove a specified element from the set. If the element does not exist, it gives an error.
@@ -556,9 +556,9 @@ print(a)
 
 # Example:
 
-a = {10, 20, 30}
-a.clear()
-print(a)
+# a = {10, 20, 30}
+# a.clear()
+# print(a)
 
 
 # 6. union()
@@ -571,10 +571,10 @@ print(a)
 
 # Example:
 
-a = {10, 20, 30}
-b = {30, 40, 50}
+# a = {10, 20, 30}
+# b = {30, 40, 50}
 
-print(a.union(b))
+# print(a.union(b))
 
 
 # 7. intersection()
@@ -587,10 +587,10 @@ print(a.union(b))
 
 # Example:
 
-a = {10, 20, 30}
-b = {20, 30, 40}
+# a = {10, 20, 30}
+# b = {20, 30, 40}
 
-print(a.intersection(b))
+# print(a.intersection(b))
 
 
 # 8. difference()
@@ -603,10 +603,10 @@ print(a.intersection(b))
 
 # Example:
 
-a = {10, 20, 30}
-b = {20, 30, 40}
+# a = {10, 20, 30}
+# b = {20, 30, 40}
 
-print(a.difference(b))
+# print(a.difference(b))
 
 
 # F. Functions of Dictionary
@@ -620,8 +620,8 @@ print(a.difference(b))
 
 # Example:
 
-a = {"name": "Kailash", "age": 22}
-print(a.keys())
+# a = {"name": "Kailash", "age": 22}
+# print(a.keys())
 
 # 2. values()
 
@@ -671,9 +671,9 @@ print(a.keys())
 
 # Example:
 
-a = {"name": "Kailash"}
-a.update({"age": 22})
-print(a)
+# a = {"name": "Kailash"}
+# a.update({"age": 22})
+# print(a)
 
 
 # 6. pop()
@@ -686,9 +686,9 @@ print(a)
 
 # Example:
 
-a = {"name": "Kailash", "age": 22}
-a.pop("age")
-print(a)
+# a = {"name": "Kailash", "age": 22}
+# a.pop("age")
+# print(a)
 
 
 # 7. popitem()
@@ -701,9 +701,9 @@ print(a)
 
 # Example:
 
-a = {"name": "Kailash", "age": 22}
-a.popitem()
-print(a)
+# a = {"name": "Kailash", "age": 22}
+# a.popitem()
+# print(a)
 
 
 # 8.clear()
@@ -716,9 +716,9 @@ print(a)
 
 # Example:
 
-a = {"name": "Kailash", "age": 22}
-a.clear()
-print(a)
+# a = {"name": "Kailash", "age": 22}
+# a.clear()
+# print(a)
 
 
 # 9. copy()
@@ -731,10 +731,10 @@ print(a)
 
 # Example:
 
-a = {"name": "Kailash"}
-b = a.copy()
+# a = {"name": "Kailash"}
+# b = a.copy()
 
-print(b)
+# print(b)
 
 
 
@@ -769,5 +769,10 @@ print(b)
 #         res.append(i)
 # print(res)
      
+
+
+
+
+# Example of args and kwargs 
 
 

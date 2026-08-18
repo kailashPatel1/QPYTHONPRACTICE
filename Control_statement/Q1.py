@@ -30,7 +30,8 @@ print(not(c))
 
 # Bitwise operator:  Bitwise op is used to perform over the binary bit of a given num.
 # Types:
-# 1:bitwise and(&)
+# 1:bitwise and (&)
+
 B=39 & 27
 print(B)
 
@@ -50,7 +51,7 @@ print(C)
 N=~5
 print(N)
 
-# 5.:bitwise left shift(<<): first of we will convert in binary num. then in the wirite hand   of binary num will will add zero how many num of shit we have to perform
+# 5.:bitwise left shift(<<): first of we will convert in binary num. then in the wirite hand  of binary num will add zero how many num of shit we have to perform
 
 # 19 ko binary ma conver first then 3 zero add in end , then convert binary to num.
 L=19<<3

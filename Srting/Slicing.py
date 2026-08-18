@@ -1,4 +1,5 @@
 A="Hello everyone How Are You"
+
 print(A[6:14:1])
 
 # print(A[0:5:1])

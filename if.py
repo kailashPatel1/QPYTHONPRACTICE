@@ -66,6 +66,7 @@
 #     if type(n)==float:
 #         if type(n)==bool:
 #             print(n,"is single value.")
+
 # ORRRRRRR 
 # if type(n) in [int,float,complex,bool]:
 #     print("it is single value data.")
@@ -193,8 +194,7 @@
 # print(d)
 
 
-
-# Exception handling:
+# WAP to check prime num.
 
 
 

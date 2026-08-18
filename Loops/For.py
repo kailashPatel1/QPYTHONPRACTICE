@@ -857,6 +857,11 @@
 #     print(num,"is not armstrong num.")
 
 
-# WAP to find 
+
+
+# WAP to 
+
+
+
 
 
